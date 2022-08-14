@@ -7,35 +7,35 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		/* Browser area before a page starts loading */
-		--gnome-browser-before-load-background: #242424;
+		--gnome-browser-before-load-background: #181c2f; /* 12% darker than gnome-headerbar-background*/
 		
 		/* Accent */
 		--gnome-accent-bg: #3584e4;
 		--gnome-accent: #78aeed;
 
 		/* Toolbars */
-		--gnome-toolbar-background: #242424;
-		--gnome-toolbar-color: #ffffff;
-		--gnome-toolbar-border-color: rgba(255, 255, 255, .15);
-		--gnome-toolbar-icon-fill: #eeeeec;
-		--gnome-inactive-toolbar-color: #919190;
+		--gnome-toolbar-background: #181c2f; /* 12% darker than gnome-headerbar-background*/
+		--gnome-toolbar-color: #a9b1d6;
+		--gnome-toolbar-border-color: rgba(187, 154, 247, .15);
+		--gnome-toolbar-icon-fill: #98a0c5; /* 17% darker than gnome-toolbar-color*/
+		--gnome-inactive-toolbar-color: #3b4368; /* 110% darker than gnome-toolbar-color*/
 		--gnome-inactive-toolbar-background: var(--gnome-toolbar-background);
-		--gnome-inactive-toolbar-border-color: #3F3F3F;
-		--gnome-inactive-toolbar-icon-fill: #919190;
+		--gnome-inactive-toolbar-border-color: #33374a; /* 15% lighter than gnome-headerbar-background*/
+		--gnome-inactive-toolbar-icon-fill: #3b4368;/* 110% darker than gnome-toolbar-color*/
 
 		/* Sidebar */
 		--gnome-sidebar-background: var(--gnome-toolbar-background);
 		--gnome-inactive-sidebar-background: var(--gnome-sidebar-background);
 
 		/* Menus */
-		--gnome-menu-background: #383838;
+		--gnome-menu-background: #2c3043; /* 8% lighter than gnome-headerbar-background*/
 		--gnome-menu-border-color: rgba(0, 0, 0, .14);
 		--gnome-menu-shadow: 0 1px 5px 1px rgba(0,0,0, .09), 0 2px 14px 3px rgba(0,0,0, .05);
 		--gnome-menu-button-hover-background: var(--gnome-button-background);
 		--gnome-menu-separator-color: rgba(255, 255, 255, .1);
 
 		/* Header bar */
-		--gnome-headerbar-background: #303030;
+		--gnome-headerbar-background: #24283b;
 		--gnome-headerbar-border-color: var(--gnome-toolbar-border-color);
 		--gnome-inactive-headerbar-background: var(--gnome-inactive-toolbar-background);
 		--gnome-inactive-headerbar-border-color: var(--gnome-inactive-toolbar-border-color);
@@ -47,7 +47,7 @@
 		--gnome-button-flat-hover-background: rgba(255, 255, 255, .07);
 		--gnome-button-flat-active-background: rgba(255, 255, 255, .1);
 		--gnome-button-suggested-action-background: var(--gnome-accent-bg);
-		--gnome-button-destructive-action-background: #e01b24;
+		--gnome-button-destructive-action-background: #f7768e;
 
 		--gnome-button-close-background: var(--gnome-button-flat-hover-background);
 		--gnome-button-hover-close-background:var(--gnome-button-hover-background);
@@ -55,25 +55,25 @@
 
 		/* Entries */
 		--gnome-entry-background: rgba(255, 255, 255, .1);
-		--gnome-entry-color: #ffffff;
-		--gnome-inactive-entry-color: #d6d6d6;
+		--gnome-entry-color: #a9b1d6;
+		--gnome-inactive-entry-color: #8088ad; /* 41% darker than gnome-toolbar-color*/
 		--gnome-focused-urlbar-border-color: rgba(120, 174, 237, .5); /* Same as --gnome-accent but with opacity*/
 
 		/* Switch */
 		--gnome-switch-background: rgba(255, 255, 255, .15);
-		--gnome-switch-slider-background: #d2d2d2;
+		--gnome-switch-slider-background: #7c84a9;/* 45% darker than gnome-toolbar-color*/
 		--gnome-switch-active-background: var(--gnome-accent-bg);
-		--gnome-switch-active-slider-background: #ffffff;
+		--gnome-switch-active-slider-background: #a9b1d6;
 
 		/* Tabs */
-		--gnome-tabbar-tab-background: #262626;
+		--gnome-tabbar-tab-background: #1a1e31; /* 10% darker than gnome-headerbar-background*/
 		--gnome-tabbar-tab-border-color: var(--gnome-toolbar-border-color);
-		--gnome-tabbar-tab-hover-background: #2D2D2D;
-		--gnome-tabbar-tab-active-background: #303030;
-		--gnome-tabbar-tab-active-background-contrast: #4F4F4F;
-		--gnome-tabbar-tab-active-hover-background: #363636;
-		--gnome-inactive-tabbar-tab-background: #1C1C1C;
-		--gnome-inactive-tabbar-tab-active-background: #242424;
+		--gnome-tabbar-tab-hover-background: #212538;  /* 3% darker than gnome-headerbar-background*/
+		--gnome-tabbar-tab-active-background: #24283b;
+		--gnome-tabbar-tab-active-background-contrast: #43475a; /* 31% lighter than gnome-headerbar-background*/
+		--gnome-tabbar-tab-active-hover-background: #2a2e41; /* 6% lighter than gnome-headerbar-background*/
+		--gnome-inactive-tabbar-tab-background: #101427; /* 20% darker than gnome-headerbar-background*/
+		--gnome-inactive-tabbar-tab-active-background: #181c2f; /* 12% darker than gnome-headerbar-background*/
 		--gnome-tab-button-background: rgba(0, 0, 0, .5);
 		--gnome-tab-button-hover-background: rgba(0, 0, 0, .6);
 		--gnome-tabbar-tab-identity-base-opacity: 0;
